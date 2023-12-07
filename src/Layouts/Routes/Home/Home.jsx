@@ -14,13 +14,13 @@ export default () => {
 
       <div>
         <Center>
-          <Text>Don't mind the mess. We are currently building a website.</Text>
+          <Text>Our site is under construction.</Text>
         </Center>
       </div>
       <Space h={15} />
       <div>
         <Center>
-          <Text>In the mean time, you can find us on Facebook. </Text>
+          <Text>For now, you can find us on Facebook. </Text>
         </Center>
       </div>
       <Space h={15} />
