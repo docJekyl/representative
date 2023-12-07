@@ -1,18 +1,20 @@
 import React from 'react'
-import { AppShell } from '@mantine/core'
+import { AppShell, Container } from '@mantine/core'
 import { Outlet } from 'react-router-dom'
-import Header from './Header/Header'
-import Navigation from './Navigation/Navigation'
+import Footer from './Footer/Footer'
 
 export default () => {
 
   return (
     <AppShell
       padding={0}
-      navbar={<Navigation/>}
-      header={<Header/>}
+      // navbar={<Navigation/>}
+      // header={<Header/>}
+      // footer={<Footer></Footer>}
     >
-      <Outlet />
+      <Container>
+        <Outlet />
+      </Container>
     </AppShell>
   )
 }
